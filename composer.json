@@ -1,0 +1,12 @@
+{
+    "require": {
+        "altorouter/altorouter": "^1.2",
+        "lox/pheasant": "v1.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "minimum-stability": "dev"
+}
