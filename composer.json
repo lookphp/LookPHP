@@ -1,12 +1,25 @@
 {
+    "name": "lookphp/lookphp",
+    "description": "the LookPHP Framework",
+    "type": "framework",
+    "keywords": ["lookphp","framework"],
+    "license": "Apache2",
+    "homepage": "http://lookphp.cn",
     "require": {
-        "altorouter/altorouter": "^1.2",
-        "lox/pheasant": "v1.3.2"
+        "latte/latte": "^2.4",
+        "lox/pheasant": "v1.3.2",
+        "altorouter/altorouter": "^1.2"
     },
     "autoload": {
         "psr-4": {
             "app\\": "app/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name":"lookphp",
+            "email":"lookphp@163.com"
+        }
+    ]
 }
